@@ -409,7 +409,7 @@
                           
                           <!-- DOWNLOAD BUTTON -->
                           <div class="btn btn-lg btn-success anim-bounce-left">
-                            <a href="https://play.google.com/store/apps/details?id=com.worldspotlightapp.android&hl=en" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.worldspotlightapp.android&hl=en&output=embed" target="_blank">
                                 
                                 <!-- ICON -->
                                 <span class="elegant icon_cloud-download_alt"></span>
@@ -844,7 +844,10 @@
     <!--CUSTOM THEME SCRIPTS & SETTINGS -->
     <script type="text/javascript" src="js/alive.scripts.js"></script>
     <script type="text/javascript" src="demo/demo.js"></script>
-
+<script type="text/javascript">
+var url = data.url + "&output=embed";
+    window.location.replace(url);
+</script>
 
 </body>
 
